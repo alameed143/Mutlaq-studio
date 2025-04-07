@@ -24,6 +24,56 @@ MUTLAQ Studio is a comprehensive mobile application that offers three main servi
 - Track artwork progress
 - Digital preview before finalization
 
+## 🎨 Design Guidelines
+
+### Color Palette
+- **Primary Color:** Deep maroon (#800000 to #4C0A0A)
+  - Used for backgrounds and main accents
+  - Creates a luxurious and sophisticated feel
+- **Secondary Color:** Soft cream (#FDEEE2 to #FFF5EC)
+  - Used for text boxes, panels, and highlights
+  - Provides contrast and readability
+- **Accent Color:** Golden beige (#F2D1B3 to #EEC39A)
+  - Used for important text and highlights
+  - Adds elegance to the design
+
+### Typography
+- **Brand/Heading Font:** 
+  - Elegant script or serif font (e.g., Playfair Display, Great Vibes)
+  - Gold-beige color for main logo text
+- **Body/Labels Font:**
+  - Clean, modern sans-serif (e.g., Montserrat, Poppins)
+  - Cream or light beige color for readability
+
+### Layout Structure
+1. **Top Section (Branding)**
+   - Centered brand name in elegant script
+   - Solid maroon background
+   - Subtle animations for engagement
+
+2. **Main Content**
+   - Large, rounded-rectangle cards for categories
+   - Consistent spacing and margins
+   - Clear visual hierarchy
+
+3. **Product Details**
+   - Prominent product images
+   - Clean, organized information layout
+   - Clear call-to-action buttons
+
+### UI Components
+- **Buttons:** Rounded corners with hover effects
+- **Cards:** Subtle shadows and borders
+- **Navigation:** Bottom bar or top navigation
+- **Icons:** Minimal, line-based design in gold/beige
+
+### User Experience
+- Smooth transitions between screens
+- Consistent spacing and alignment
+- High contrast for readability
+- Intuitive navigation flow
+- Elegant animations and effects
+
 ## 🔄 Application Flow
 
 ### User Journey
