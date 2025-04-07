@@ -1,60 +1,152 @@
 # MUTLAQ Studio
 
-تطبيق أندرويد عصري لطباعة الصور والخط العربي والفن المخصص.
+A modern Android application for photo prints, Arabic calligraphy, and custom artwork.
 
-## المميزات
+## 📱 Application Overview
 
-- **طباعة الصور**: تصفح وطلب طباعة صور عالية الجودة
-- **الخط العربي**: استكشف أعمال الخط العربي الجميلة
-- **فن مخصص**: طلب أعمال فنية مخصصة حسب احتياجاتك
-- **سلة التسوق**: وظيفة سلة تسوق سهلة الاستخدام
-- **ملفات المستخدمين**: إدارة حسابك وطلباتك
+MUTLAQ Studio is a comprehensive mobile application that offers three main services:
 
-## التقنيات المستخدمة
+### 1. Photo Prints
+- Upload and print high-quality photos
+- Multiple size options
+- Various paper quality choices
+- Direct delivery to your address
 
-- **Kotlin**: لغة برمجة حديثة لتطوير أندرويد
-- **Jetpack Compose**: مجموعة أدوات واجهة المستخدم الحديثة لبناء واجهة أندرويد الأصلية
-- **Material 3**: أحدث مكونات تصميم Material
-- **Navigation Compose**: للتنقل بين الشاشات
-- **Retrofit**: للتواصل مع واجهات برمجة التطبيقات
-- **Coroutines**: للبرمجة غير المتزامنة
-- **Coil**: لتحميل الصور
+### 2. Arabic Calligraphy
+- Browse beautiful Arabic calligraphy designs
+- Custom text to calligraphy conversion
+- Multiple style options
+- Frame and material selection
 
-## البدء
+### 3. Custom Artwork
+- Request personalized artwork
+- Collaborate with artists
+- Track artwork progress
+- Digital preview before finalization
 
-### المتطلبات الأساسية
+## 🔄 Application Flow
 
-- Android Studio Arctic Fox أو أحدث
-- JDK 11 أو أحدث
-- Android SDK 33 أو أحدث
+### User Journey
+1. **Authentication**
+   - Sign up/Login
+   - Profile creation
+   - Address management
 
-### التثبيت
+2. **Home Screen**
+   - Featured categories
+   - Recent works
+   - Special offers
+   - Quick access to all services
 
-1. استنساخ المستودع
+3. **Service Selection**
+   - Choose between Photo Prints, Calligraphy, or Custom Art
+   - View service details and pricing
+   - Select customization options
+
+4. **Order Process**
+   - Add items to cart
+   - Review order
+   - Select delivery address
+   - Payment processing
+   - Order confirmation
+
+5. **Order Tracking**
+   - View order status
+   - Track delivery
+   - Download digital proofs
+   - Rate and review
+
+## 🛠 Technical Architecture
+
+### Frontend
+- **UI Framework**: Jetpack Compose
+- **Design System**: Material 3
+- **Navigation**: Navigation Compose
+- **State Management**: ViewModel + StateFlow
+
+### Backend Integration
+- **API Communication**: Retrofit
+- **Image Loading**: Coil
+- **Data Storage**: Room Database
+- **Authentication**: JWT Token
+
+## 📋 Project Structure
+
+```
+app/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/mutlaq_studio/
+│   │   │   ├── data/
+│   │   │   │   ├── api/          # API services
+│   │   │   │   ├── model/        # Data models
+│   │   │   │   └── repository/   # Data repositories
+│   │   │   ├── di/               # Dependency injection
+│   │   │   ├── ui/
+│   │   │   │   ├── screens/      # App screens
+│   │   │   │   ├── components/   # Reusable components
+│   │   │   │   └── theme/        # App theme
+│   │   │   └── utils/            # Utility classes
+│   │   └── res/                  # Resources
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio Arctic Fox or newer
+- JDK 11 or newer
+- Android SDK 33 or newer
+
+### Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/alameed143/Mutlaq-studio.git
    ```
-   git clone https://github.com/yourusername/MUTlaq_Studio.git
-   ```
 
-2. فتح المشروع في Android Studio
+2. Open the project in Android Studio
 
-3. بناء وتشغيل التطبيق
+3. Sync Gradle files
 
-## هيكل المشروع
+4. Build and run the application
 
-- `app/src/main/java/com/example/mutlaq_studio/`
-  - `data/`: طبقة البيانات (النماذج، المستودعات، خدمات API)
-  - `ui/`: طبقة واجهة المستخدم (الشاشات، المكونات، نماذج العرض)
-  - `utils/`: فئات وامتدادات المساعدة
+## 🔑 Key Features
 
-## لقطات الشاشة
+### User Management
+- Secure authentication
+- Profile management
+- Address book
+- Order history
 
-(سيتم إضافة لقطات الشاشة هنا)
+### Shopping Experience
+- Intuitive navigation
+- Real-time cart updates
+- Multiple payment options
+- Order tracking
 
-## الترخيص
+### Customization
+- Photo size selection
+- Calligraphy style options
+- Artwork customization
+- Frame selection
 
-هذا المشروع هو ملكية حصرية لـ MUTLAQ Studio ومصممه. جميع الحقوق محفوظة. يمنع نسخ أو تعديل أو توزيع هذا البرنامج بأي شكل من الأشكال دون إذن كتابي مسبق من MUTLAQ Studio.
+## 📱 Screenshots
 
-## الشكر والتقدير
+(Coming soon)
 
-- Material Design لمكونات واجهة المستخدم
-- Android Jetpack لأدوات تطوير أندرويد الحديثة 
+## 📄 License
+
+Copyright (c) 2024 MUTLAQ Studio. All Rights Reserved.
+
+This software and associated documentation files (the "Software") are the exclusive property of MUTLAQ Studio and its designer. The Software is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.
+
+No part of this Software may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of MUTLAQ Studio.
+
+## 👥 Contributing
+
+For any inquiries about contributing or licensing, please contact MUTLAQ Studio.
+
+## 🙏 Acknowledgments
+
+- Material Design for UI components
+- Android Jetpack for modern Android development tools
+- The Android community for their valuable resources and support 
